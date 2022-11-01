@@ -1,0 +1,58 @@
+.account-container {
+    width: 50%;
+    height: 60%;
+    background-image: linear-gradient(to right rgba(0, 0, 0, .75), rgba(0, 0, 0, .75));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .login {
+        width: 50%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        border-right: solid 1px white;
+
+        label {
+            margin-bottom: -15px;
+            display: block;
+        }
+
+        input {
+            width: 75%;
+            height: 50px;
+        }
+    }
+
+    .new-account {
+        width: 50%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        border-left: solid  1px white;
+
+        label {
+            margin-bottom: -15px;
+            display: block;
+        }
+
+        input {
+            width: 75%;
+            height: 50px;
+        }
+    }
+
+    #submit {
+        width: 100px;
+        height: 50px;
+        border: none;
+        background-color: darkmagenta;
+        color: white;
+    }
+}

@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.75))), url(../images/hero.png);
+  background-image: linear-gradient(to right rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #505050;
+}
+.nav-bar .logo {
+  width: 100px;
+  height: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.nav-bar .links {
+  color: white;
+  margin-right: 50px;
+}
+.nav-bar .links a, .nav-bar .links span {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: #505050;
+}
+footer .footer-info {
+  height: 50px;
+}
+footer .info-holder {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+footer .info-holder .logo {
+  width: 100px;
+  height: 50px;
+}
+footer .info-holder .socials {
+  width: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+footer .info-holder .socials svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+#home-header {
+  width: 300px;
+  height: 200px;
+  font-style: italic;
+  font-size: 60px;
+  padding: 10px;
+}
+
+#home-text {
+  width: 450px;
+  height: 120px;
+  padding: 10px;
+}
+
+#home-button {
+  width: 125px;
+  height: 35px;
+  border: none;
+  background-color: darkmagenta;
+  color: white;
+}
+
+form {
+  width: 50%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 35px;
+}
+form .input-box {
+  width: 45%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+form .input-box input {
+  height: 50px;
+}
+form #submit {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: darkmagenta;
+  color: white;
+}
+form #edit {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: darkmagenta;
+  color: white;
+}
+
+.account-container {
+  width: 50%;
+  height: 60%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.75)));
+  background-image: linear-gradient(to right rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.account-container .login {
+  width: 50%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  border-right: solid 1px white;
+}
+.account-container .login label {
+  margin-bottom: -15px;
+  display: block;
+}
+.account-container .login input {
+  width: 75%;
+  height: 50px;
+}
+.account-container .new-account {
+  width: 50%;
+  height: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: solid 1px white;
+}
+.account-container .new-account label {
+  margin-bottom: -15px;
+  display: block;
+}
+.account-container .new-account input {
+  width: 75%;
+  height: 50px;
+}
+.account-container #submit {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: darkmagenta;
+  color: white;
+}

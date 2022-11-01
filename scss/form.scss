@@ -1,0 +1,35 @@
+form {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+
+    .input-box {
+        width: 45%;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+
+        input {
+            height: 50px;
+        }
+    }
+
+    #submit {
+        width: 100px;
+        height: 50px;
+        border: none;
+        background-color: darkmagenta;
+        color: white;
+    }
+
+    #edit {
+        width: 100px;
+        height: 50px;
+        border: none;
+        background-color: darkmagenta;
+        color: white;
+    }
+}
